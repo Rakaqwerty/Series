@@ -12,6 +12,7 @@
         }
         h1, h2 {
             margin-bottom: 10px;
+            font-weight: bold;
         }
         p {
             margin-bottom: 30px;
@@ -25,34 +26,43 @@
             color: white;
             padding: 15px 30px;
             margin: 10px;
-            border-radius: 5px;
+            border-radius: 8px;
             text-decoration: none;
             font-size: 16px;
             display: inline-block;
+            width: 200px;
+        }
+        .skill-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 40px;
         }
         .skill-button {
             background-color: grey;
             border: none;
             color: white;
-            padding: 10px 20px;
-            margin: 5px;
-            border-radius: 5px;
-            font-size: 14px;
-            display: block;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
             width: 300px;
-            margin-left: auto;
-            margin-right: auto;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>Rakha tunnel✔</h1>
+    <hr>
     <h2>Payakumbuh Cyber</h2>
+    <hr>
     <p>Kami berasal dari rasa penasaran, bergerak untuk pelestarian digital. Payakumbuh Cyber Defense — dari rasa ingin tahu, menuju perlindungan siber.</p>
 
     <h3>SKILL</h3>
-    <button class="skill-button">BUG WHATSAPP</button>
-    <button class="skill-button">Add Followers IG</button>
+    <div class="skill-container">
+        <button class="skill-button">BUG WHATSAPP</button>
+        <button class="skill-button">Add Followers IG</button>
+    </div>
 
     <h3>Kontak</h3>
     <div>
